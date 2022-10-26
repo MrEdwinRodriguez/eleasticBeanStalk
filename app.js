@@ -9,3 +9,8 @@ app.listen(PORT, (req, res) => {
 app.get('/', (req, res) => {
     res.send(`This is the home page`);
 })
+
+
+app.get('/greeting', (req, res) => {
+    res.send(`Welcome to this page!`);
+})
